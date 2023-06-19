@@ -71,6 +71,8 @@ print(output)
 # print("Greatest Decrease in Profits: " + str(greatest_decrease))
 
 #Export the results to the text file
-
+with open ("analysis/analysis.txt", "w") as file:
+    file.write(output)
+    
 
 
