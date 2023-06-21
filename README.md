@@ -14,11 +14,15 @@ Once all was caluclated and I got the correct outputs, I put everything into an 
 Finally, I had the results exported to a txt.file. 
 
 #PyPoll
-Disclaimer:  I got assistance with the pypoll assignment from askBCS and a tutor. They explained and showed steps to get the proper calculations. 
+Disclaimer:  I got assistance with the pypoll assignment from askBCS, a tutor, and instructor. They explained and showed steps to get the proper calculations. 
 Similar to the PyBank, I started with the import of my modules and created a path for my csv file.
 Next, I calculated the number of votes casted. 
 I created an empty list of candidates (with the help of askbcs and tutor) to add each candidate to the list with an if statement. 
 Also within my if statement, it will calculate the total votes of each candidate.
 I then created a variable for the winner_votes and made an if statement for the greatest number of votes. 
-Last, I printed my output and had it exported to a text file. 
+I struggled along with my instructor and TA how to solve my output. We were not sure where I was going wrong. 
+At first my numbers for each candidate was correct and printing. 
+Then I had issues with getting it to export to a text file with the right layout.
+Eventually, my numbers and outputs all changed. I am not sure where I am going wrong and it seems like anyone that I ask for help is not sure either. 
+
 
