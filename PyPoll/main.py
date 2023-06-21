@@ -26,30 +26,39 @@ txt_file_results = (
 f"Election Results\n"
 f"--------------------\n"
 f"Total Votes: {total_votes}\n"
-f"------------------------------"
+f"------------------------------\n"
 )
 print(txt_file_results)
 
 
 with open(OUTPUT_PATH, "w") as textfile:
 
+    textfile.write(txt_file_results)
     for candidate in candidate_votes:
         
         print(candidate)
+        #textfile.write(f"{candidate} ")
 
         votes = candidate_votes[candidate]
         print(votes)
+        # textfile.write(f"({votes})\n")
 
         percent_votes = float(votes)/float(total_votes) * 100
         print(percent_votes)
+        # textfile.write(f"{percent_votes:.3f}%\n")
+        
+        textfile.write(f"{candidate} ")
+        textfile.write(f"{percent_votes:.3f}% ")
+        textfile.write(f"({votes})\n")
 
-    if (votes > winner_votes): 
-        winner_votes = votes
-        winner = candidate
+        if (votes > winner_votes): 
+            winner_votes = votes
+            winner = candidate
         winner_candidate= (
-        f"Winner: {winner}\n"
-        f"---------------------------------\n")
-        print(winner_candidate)
+        f"---------------------------------\n"
+        f"Winner: {winner}\n")
+    textfile.write(winner_candidate)
+print(winner_candidate)
 
         # candidate_finals = (
         # f"{candidate}: {percent_votes:.3f}% ({votes})\n"
