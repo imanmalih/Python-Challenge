@@ -21,8 +21,15 @@ I created an empty list of candidates (with the help of askbcs and tutor) to add
 Also within my if statement, it will calculate the total votes of each candidate.
 I then created a variable for the winner_votes and made an if statement for the greatest number of votes. 
 I struggled along with my instructor and TA how to solve my output. We were not sure where I was going wrong. 
-At first my numbers for each candidate was correct and printing. 
+At first my numbers for each candidate was correct and printing the correct answers. 
 Then I had issues with getting it to export to a text file with the right layout.
-Eventually, my numbers and outputs all changed. I am not sure where I am going wrong and it seems like anyone that I ask for help is not sure either. 
+Eventually, my numbers and outputs all changed. 
+I did not give up! 
+I asked a learning assistant one more time to help sort through my code. 
+He helped me and explained that I had an indenting issue for a print statemnt and this was giving me the repetitive percentage and vote. 
+I then got my correct numbers back per candidate. 
+I wrote each candidate and percent votes and votes in the order I wished for it to be outputed. 
+
+
 
 
